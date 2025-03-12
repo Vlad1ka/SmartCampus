@@ -1,0 +1,29 @@
+.footer{
+    height: 250px;
+    background-color: #59A68D;
+    margin: 70px 0 0 0;
+    padding: 50px 70px;
+    display: flex;
+
+    &__social_media{
+
+        &__icons{
+            width: 240px;
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0 0 0;
+        }
+    }
+
+    &__text{
+        width: 915px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 0 150px;
+        color: #fff;
+
+        p{
+            margin: 15px 0 0 0;
+        }
+    }
+}

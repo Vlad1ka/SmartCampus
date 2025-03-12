@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  width: 1440px;
+  margin: 0 auto;
+  font-family: JetBrainsMono;
+}
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('../public/font/JetBrainsMono-Regular.ttf');
+}

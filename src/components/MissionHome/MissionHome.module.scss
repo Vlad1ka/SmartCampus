@@ -1,0 +1,40 @@
+.mission{
+    height: 523px;
+    &__title{
+        text-align: center;
+        font-size: 40px;
+        margin: 0 0 70px 0;
+    }
+
+    &__cards{
+        width: 1300px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+
+        &__card{
+            width: 400px;
+            color: #fff;
+
+            img{
+                position: absolute;
+                z-index: 0;
+            }
+
+            p{
+                position: relative;
+                width: 347px;
+                text-align: center;
+            }
+
+            p:nth-of-type(1){
+                font-size: 24px;
+                margin: 127px 0 0 27px;
+            }
+
+            p:nth-of-type(2){
+                margin: 40px 0 0 27px;
+            }
+        }
+    }
+}
