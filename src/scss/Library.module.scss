@@ -1,0 +1,53 @@
+.library{
+
+    &__title{
+        font-size: 40px;
+        text-align: center;
+        margin: 70px 0 50px 0;
+    }
+
+    &__cards{
+        width: 1300px;
+        height: 840px;
+        margin: 0 auto;
+
+        &__wrapper{
+            display: flex;
+            justify-content: space-between;
+
+            &__card{
+                width: 400px;
+                height: 400px;
+
+                img{
+                    position: absolute;
+                    z-index: 0;
+                }
+
+                p{
+                    width: 340px;
+                    position: relative;
+                    color: #fff;
+                    text-align: center;
+                    margin: 25px 30px 0 30px;
+                }
+
+                p:nth-of-type(1){
+                    font-size: 24px;
+                    margin: 100px 30px 0 30px;
+                }
+
+                p:nth-of-type(2){
+                    margin-top: 25px;
+                }
+
+            }
+        }
+
+        &__wrapper:nth-of-type(2){
+            width: 850px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+    }
+}

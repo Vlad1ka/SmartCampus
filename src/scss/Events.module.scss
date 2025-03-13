@@ -1,0 +1,58 @@
+.events{
+
+    &__title{
+        font-size: 40px;
+        text-align: center;
+        margin: 70px 0 50px 0;
+    }
+
+    &__cards{
+        width: 1300px;
+        height: 520px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+
+
+        &__card{
+            width: 400px;
+            height: 400px;
+    
+            img{
+                position: absolute;
+                z-index: 0;
+            }
+    
+            p{
+                width: 340px;
+                position: relative;
+                color: #fff;
+                text-align: center;
+                margin: 25px 30px 0 30px;
+            }
+    
+            p:nth-of-type(1){
+                font-size: 20px;
+                padding-top: 100px;
+            }
+    
+            p:nth-of-type(2){
+                height: 230px;
+                font-size: 14px;
+                margin-top: 20px;
+            }
+            
+            button{
+                width: 100px;
+                height: 60px;
+                position: relative;
+                margin: 20px 0 0 150px;
+                background-color: #59A68D;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                font-size: 20px;
+            }
+        }
+    }
+}

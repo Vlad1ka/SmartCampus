@@ -1,0 +1,33 @@
+.life{
+
+    &__title{
+        font-size: 40px;
+        text-align: center;
+        margin: 70px 0 50px 0;
+    }
+
+    &__banners{
+        padding: 0 130px;
+
+        &__banner{
+            display: flex;
+            justify-content: space-between;
+            
+            p{
+                font-size: 28px;
+                margin: 33px 0 0 83px;
+            }
+        }
+
+        &__banner_reverse{
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 0;
+
+            p{
+                font-size: 28px;
+                margin: 33px 83px 0 0;
+            }
+        }
+    }
+}

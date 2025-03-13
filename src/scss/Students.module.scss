@@ -1,0 +1,80 @@
+.students{
+
+    &__title{
+        font-size: 40px;
+        text-align: center;
+        margin: 70px 0 50px 0;
+    }
+
+    &__banner{
+        width: 1300px;
+        height: 600px;
+        background-color: #A6BA4C;
+        padding: 50px;
+        display: flex;
+        margin: 0 auto;
+
+        p{
+            width: 650px;
+            color: #fff;
+            font-size: 20px;
+            margin: 20px 0 0 50px;
+        }
+    }
+
+    &__qualification{
+        width: 1300px;
+        margin: 0 auto;
+
+        &__title{
+            font-size: 32px;
+            height: 100px;
+            text-align: center;
+            background-color: #59A68D;
+            padding: 30px;
+            color: #fff;
+            border-radius: 5px;
+            margin: 70px 0 0 0;
+        }
+
+        &__table{
+            font-size: 20px;
+            margin: 50px 0 0 0;
+
+            p:nth-of-type(1){
+                width: 340px;
+            }
+
+            p:nth-of-type(2){
+                width: 108px;
+            }
+
+            p:nth-of-type(3){
+                width: 100px;
+            }
+
+            p:nth-of-type(4){
+                width: 300px;
+            }
+
+            p:nth-of-type(5){
+                width: 243px;
+            }
+
+            &__name{
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &__specialties{
+                display: flex;
+                justify-content: space-between;
+            }
+
+            hr{
+                border: 1px solid #59A68D;
+                margin: 30px 0;
+            }
+        }
+    }
+}

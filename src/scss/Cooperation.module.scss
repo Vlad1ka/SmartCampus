@@ -1,0 +1,47 @@
+.cooperation{
+
+    &__title{
+        font-size: 40px;
+        text-align: center;
+        margin: 70px 0 50px 0;
+    }
+
+    &__cards{
+        width: 1300px;
+        height: 840px;
+        margin: 0 auto;
+
+        &__wrapper{
+            display: flex;
+            justify-content: space-between;
+            margin: 40px 0 0 0;
+
+            &__card{
+                width: 400px;
+                height: 400px;
+                color: #fff;
+    
+                img{
+                    position: absolute;
+                    z-index: 0;
+                }
+    
+                p{
+                    position: relative;
+                    text-align: center;
+                }
+    
+                p:nth-of-type(1){
+                    height: 180px;
+                    font-size: 24px;
+                    padding: 120px 0 0 0;
+                }
+    
+                p:nth-of-type(2){
+                    width: 347px;
+                    margin: 20px 0 0 27px;
+                }
+            }
+        }
+    }
+}
