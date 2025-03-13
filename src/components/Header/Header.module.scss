@@ -22,3 +22,36 @@
         color: #fff;
     }
 }
+
+@media (max-width: 768px) {
+    .header{
+        width: 768px;
+        height: 64px;
+        padding: 10px 37px;
+        margin: 0 auto;
+    
+        &__calling{
+            width: 135px;
+            height: 15px;
+            margin: 15px 0 0 300px;
+            font-size: 10px;
+
+            img{
+                width: 15px;
+                height: 15px;
+            }
+        }
+    
+        &__location{
+            width: 135px;
+            height: 15px;
+            font-size: 10px;
+            margin: 15px 0 0 0;
+
+            img{
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
+}

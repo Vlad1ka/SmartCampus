@@ -1,25 +1,25 @@
 import React from 'react';
 import classes from './EducationCard.module.scss'
 
-const EducationCard = () => {
+const EducationCard = ({img, time, people, title, price, percent}) => {
   return (
     <div className={classes.card}>
         <div className={classes.card__info}>
           <div className={classes.card__info__time}>
             <img src="/img/calendar.png" alt="photo3" />
-            <p>От 9 месяцев</p>
+            <p>От {time} месяцев</p>
           </div>
           <div className={classes.card__info__people}>
             <img src="/img/people.png" alt="photo2" />
-            <p>Осталось 10 мест</p>
+            <p>Осталось {people} мест</p>
           </div>
         </div>
-        <img src="/img/card1.png" alt="photo5" />
-        <p className={classes.card__title}>iOS-разработчик с 0 до middle</p>
-        <p className={classes.card__price}>от <span>12000</span> руб/мес</p>
+        <img src={img} alt="photo5" />
+        <p className={classes.card__title}>{title}</p>
+        <p className={classes.card__price}>от <span>{price}</span> руб/мес</p>
         <div className={classes.card__percent}>
             <img src="/img/percent.png" alt="photo1" />
-            <p>Рассрочка на 24 месяца</p>
+            <p>Рассрочка на {percent} месяца</p>
         </div>
     </div>
   )

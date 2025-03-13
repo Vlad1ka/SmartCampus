@@ -27,3 +27,41 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .footer{
+        width: 768px;
+        height: 133px;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 27px 37px;
+    
+        &__social_media{
+
+            img{
+                width: 43px;
+                height: 43px;
+            }
+    
+            &__icons{
+                width: 127px;
+                margin: 15px 0 0 0;
+
+                img{
+                    width: 21px;
+                    height: 21px;
+                }
+            }
+        }
+    
+        &__text{
+            width: 488px;
+            margin: 0 0 0 78px;
+            font-size: 9px;
+    
+            p{
+                margin: 8px 0 0 0;
+            }
+        }
+    }
+}
